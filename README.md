@@ -12,3 +12,7 @@ SERAP Nigeria, a leading NGO dedicated to fostering transparency and accountabil
 2) To conduct an in-depth analysis of SERAP's costs incurred in different states concerning awareness campaigns, town hall meetings, and lawsuit engagements in relation to the number of respondents. These costs will be approximated by benchmarking against similar events held in the region.
 
 This project relied on a robust tech stack, including MySQL, Jupyter notebook, PowerBI, and Microsoft Excel, with SQL and Python serving as the primary programming languages."
+
+All files used in this project have been attached in the required format.
+# MODULE 1 - CLEANING AND PREPROCESSING THE DATA
+N.B All the data used in this research are included in the dataset file.
