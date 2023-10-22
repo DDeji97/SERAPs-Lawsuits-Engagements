@@ -44,7 +44,7 @@ INSERT INTO NigeriaStates (StateName, PoliticalParty, GeopoliticalZone, Populati
 ('Yobe', 'APC', 'North East', 3289000),
 ('Zamfara', 'APC', 'North West', 4382000);
 
---- Importing SERAP's Data 
+/* Importing SERAP's Data collected with Budget Estimate */
 CREATE TABLE StateBudgets (
     S_N INT,
     StateName VARCHAR(50),
@@ -91,7 +91,7 @@ INSERT INTO StateBudgets (S_N, StateName, Annual_Budget, Frequency) VALUES
 (36, 'Yobe', 1100, 23),
 (37, 'Zamfara', 1100, 10);
 
----Merging the two table above 
+/* Merging the two table above */
 SELECT 
     ns.StateName,
     ns.PoliticalParty,
