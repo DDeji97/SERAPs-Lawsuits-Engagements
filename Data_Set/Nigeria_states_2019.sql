@@ -92,4 +92,16 @@ INSERT INTO StateBudgets (S_N, StateName, Annual_Budget, Frequency) VALUES
 (37, 'Zamfara', 1100, 10);
 
 ---Merging the two table above 
+SELECT 
+    ns.StateName,
+    ns.PoliticalParty,
+    ns.GeopoliticalZone,
+    ns.Population_2019,
+    sb.Annual_Budget,
+    sb.Frequency
+FROM 
+    NigeriaStates ns
+JOIN 
+    StateBudgets sb ON ns.StateName = sb.StateName;
+
 
