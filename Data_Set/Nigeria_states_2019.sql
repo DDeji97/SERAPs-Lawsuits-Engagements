@@ -43,3 +43,53 @@ INSERT INTO NigeriaStates (StateName, PoliticalParty, GeopoliticalZone, Populati
 ('Taraba', 'PDP', 'North East', 2888000),
 ('Yobe', 'APC', 'North East', 3289000),
 ('Zamfara', 'APC', 'North West', 4382000);
+
+--- Importing SERAP's Data 
+CREATE TABLE StateBudgets (
+    S_N INT,
+    StateName VARCHAR(50),
+    Annual_Budget DECIMAL(18, 2),
+    Frequency INT
+);
+
+INSERT INTO StateBudgets (S_N, StateName, Annual_Budget, Frequency) VALUES
+(1, 'Abia', 1200, 134),
+(2, 'Adamawa', 1500, 42),
+(3, 'Akwa Ibom', 1100, 106),
+(4, 'Anambra', 1450, 216),
+(5, 'Bauchi', 950, 27),
+(6, 'Bayelsa', 1200, 25),
+(7, 'Benue', 1350, 87),
+(8, 'Borno', 1500, 49),
+(9, 'Cross River', 250000, 54),
+(10, 'Delta', 1450, 204),
+(11, 'Ebonyi', 1050, 39),
+(12, 'Edo', 1100, 167),
+(13, 'Ekiti', 1450, 101),
+(14, 'Enugu', 1300, 123),
+(15, 'FCT', 19250854, 209),
+(16, 'Gombe', 1250, 23),
+(17, 'Imo', 1300, 143),
+(18, 'Jigawa', 1250, 24),
+(19, 'Kaduna', 1400, 105),
+(20, 'Kano', 1300, 95),
+(21, 'Katsina', 1000, 36),
+(22, 'Kebbi', 1200, 15),
+(23, 'kogi', 1250, 90),
+(24, 'kwara', 850, 135),
+(25, 'Lagos', 63577890, 1178),
+(26, 'Nasarawa', 1650, 26),
+(27, 'Niger', 1500, 38),
+(28, 'Ogun', 2500, 248),
+(29, 'Ondo', 1500, 116),
+(30, 'Osun', 2015000, 203),
+(31, 'Oyo', 2000, 292),
+(32, 'Plateau', 1850, 50),
+(33, 'Rivers', 3650200, 124),
+(34, 'Sokoto', 1050, 13),
+(35, 'Taraba', 1350, 21),
+(36, 'Yobe', 1100, 23),
+(37, 'Zamfara', 1100, 10);
+
+---Merging the two table above 
+
