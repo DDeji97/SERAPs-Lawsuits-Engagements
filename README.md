@@ -45,10 +45,8 @@ VALUES
  
  ```tsql
 CREATE TABLE NigeriaStates (
-    StateName VARCHAR(50),
-    PoliticalParty VARCHAR(50),
-    GeopoliticalZone VARCHAR(50),
-    Population_2019 INT
+    StateName VARCHAR(50), PoliticalParty VARCHAR(50),
+    GeopoliticalZone VARCHAR(50), Population_2019 INT
 );
 
 INSERT INTO NigeriaStates (StateName, PoliticalParty, GeopoliticalZone, Population_2019) VALUES
