@@ -17,7 +17,7 @@ All files used in this project have been attached in the required format.
 # MODULE 1 - CLEANING AND PREPROCESSING THE DATA
 N.B All the data used in this research are included in the dataset file.
 
-```
+```tsql
 /* Importing SERAP's Data collected with Budget Estimate and Respondance Frequency to suits*/ 
 CREATE TABLE StateBudgets ( S_N INT, StateName VARCHAR(50), Annual_Budget DECIMAL(18, 2), Frequency INT );
 
