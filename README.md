@@ -15,12 +15,23 @@ This project relied on a robust tech stack, including MySQL, Jupyter notebook, P
 
 All files used in this project have been attached in the required format.
 # MODULE 1 - CLEANING AND PREPROCESSING THE DATA
+**Table1(SERAPStates)**
+I will start my processing by importing our original data containing the list of the 36 states in nigeria and FCT, the amount of respondents from each states and also an estimate of the total cost incurred to hold various initiatives in each states
 N.B All the data used in this research are included in the dataset file.
 
 ```tsql
 /* Importing SERAP's Data collected with Budget Estimate and Respondance Frequency to suits*/ 
-CREATE TABLE StateBudgets ( S_N INT, StateName VARCHAR(50), Annual_Budget DECIMAL(18, 2), Frequency INT );
+CREATE TABLE SERAPStates ( S_N INT, StateName VARCHAR(50), Annual_Budget DECIMAL(18, 2), Frequency INT );
 
-INSERT INTO StateBudgets (S_N, StateName, Annual_Budget, Frequency) VALUES (1, 'Abia', 1200, 134), (2, 'Adamawa', 1500, 42), (3, 'Akwa Ibom', 1100, 106), (4, 'Anambra', 1450, 216), (5, 'Bauchi', 950, 27), (6, 'Bayelsa', 1200, 25), (7, 'Benue', 1350, 87), (8, 'Borno', 1500, 49), (9, 'Cross River', 250000, 54), (10, 'Delta', 1450, 204), (11, 'Ebonyi', 1050, 39), (12, 'Edo', 1100, 167), (13, 'Ekiti', 1450, 101), (14, 'Enugu', 1300, 123), (15, 'FCT', 19250854, 209), (16, 'Gombe', 1250, 23), (17, 'Imo', 1300, 143), (18, 'Jigawa', 1250, 24), (19, 'Kaduna', 1400, 105), (20, 'Kano', 1300, 95), (21, 'Katsina', 1000, 36), (22, 'Kebbi', 1200, 15), (23, 'kogi', 1250, 90), (24, 'kwara', 850, 135), (25, 'Lagos', 63577890, 1178), (26, 'Nasarawa', 1650, 26), (27, 'Niger', 1500, 38), (28, 'Ogun', 2500, 248), (29, 'Ondo', 1500, 116), (30, 'Osun', 2015000, 203), (31, 'Oyo', 2000, 292), (32, 'Plateau', 1850, 50), (33, 'Rivers', 3650200, 124), (34, 'Sokoto', 1050, 13), (35, 'Taraba', 1350, 21), (36, 'Yobe', 1100, 23), (37, 'Zamfara', 1100, 10);
+INSERT INTO SERAPStates (S_N, StateName, Annual_Budget, Frequency)
+VALUES
+(1, 'Abia', 1200, 134), (2, 'Adamawa', 1500, 42), (3, 'Akwa Ibom', 1100, 106), (4, 'Anambra', 1450, 216), (5, 'Bauchi', 950, 27), (6, 'Bayelsa', 1200, 25), (7, 'Benue', 1350, 87), (8, 'Borno', 1500, 49), (9, 'Cross River', 250000, 54), (10, 'Delta', 1450, 204), (11, 'Ebonyi', 1050, 39), (12, 'Edo', 1100, 167), (13, 'Ekiti', 1450, 101), (14, 'Enugu', 1300, 123), (15, 'FCT', 19250854, 209), (16, 'Gombe', 1250, 23), (17, 'Imo', 1300, 143), (18, 'Jigawa', 1250, 24), (19, 'Kaduna', 1400, 105), (20, 'Kano', 1300, 95), (21, 'Katsina', 1000, 36), (22, 'Kebbi', 1200, 15), (23, 'kogi', 1250, 90), (24, 'kwara', 850, 135), (25, 'Lagos', 63577890, 1178), (26, 'Nasarawa', 1650, 26), (27, 'Niger', 1500, 38), (28, 'Ogun', 2500, 248), (29, 'Ondo', 1500, 116), (30, 'Osun', 2015000, 203), (31, 'Oyo', 2000, 292), (32, 'Plateau', 1850, 50), (33, 'Rivers', 3650200, 124), (34, 'Sokoto', 1050, 13), (35, 'Taraba', 1350, 21), (36, 'Yobe', 1100, 23), (37, 'Zamfara', 1100, 10);
 ```
+ **Table2(StateBudgets)**
  
+<a name="header1"></a>
+[![licence badge]][licence]
+[![stars badge]][stars]
+[![forks badge]][forks]
+[![issues badge]][issues]
+[![contributors_badge]][contributors]
