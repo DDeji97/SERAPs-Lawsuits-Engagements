@@ -16,6 +16,7 @@ This project relied on a robust tech stack, including MySQL, Jupyter notebook, P
 All files used in this project have been attached in the required format.
 # MODULE 1 - CLEANING AND PREPROCESSING THE DATA
 **Table1(SERAPStates)**
+
 I will start my processing by importing our original data containing the list of the 36 states in nigeria and FCT, the amount of respondents from each states and also an estimate of the total cost incurred to hold various initiatives in each states
 N.B All the data used in this research are included in the dataset file.
 
@@ -40,6 +41,8 @@ VALUES
 (37, 'Zamfara', 1100, 10);
 ```
  **Table2(StateBudgets)**
+
+ 
  ```tsql
 CREATE TABLE NigeriaStates (
     StateName VARCHAR(50),
@@ -69,6 +72,12 @@ INSERT INTO NigeriaStates (StateName, PoliticalParty, GeopoliticalZone, Populati
 ('Taraba', 'PDP', 'North East', 2888000), ('Yobe', 'APC', 'North East', 3289000),
 ('Zamfara', 'APC', 'North West', 4382000);
 ```
+
+**Merging Table1(SERAPStates) with Table2(NigeriaStates)***
+```tsql
+
+```
+
 
 <a name="header1"></a>
 [![licence badge]][licence]
