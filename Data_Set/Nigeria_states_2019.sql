@@ -45,14 +45,14 @@ INSERT INTO NigeriaStates (StateName, PoliticalParty, GeopoliticalZone, Populati
 ('Zamfara', 'APC', 'North West', 4382000);
 
 /* Importing SERAP's Data collected with Budget Estimate */
-CREATE TABLE StateBudgets (
+CREATE TABLE SERAPStates (
     S_N INT,
     StateName VARCHAR(50),
     Annual_Budget DECIMAL(18, 2),
     Frequency INT
 );
 
-INSERT INTO StateBudgets (S_N, StateName, Annual_Budget, Frequency) VALUES
+INSERT INTO SERAPStates (S_N, StateName, Annual_Budget, Frequency) VALUES
 (1, 'Abia', 1200, 134),
 (2, 'Adamawa', 1500, 42),
 (3, 'Akwa Ibom', 1100, 106),
