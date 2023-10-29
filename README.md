@@ -72,10 +72,35 @@ INSERT INTO NigeriaStates (StateName, PoliticalParty, GeopoliticalZone, Populati
 ```
 
 **Merging Table1(SERAPStates) with Table2(NigeriaStates)***
+***To merge the two tables, I used the following steps:
+I created a new table called SERAPNigeriaStates with all the columns from both of the original tables as shown below***
+
 ```tsql
-
+CREATE TABLE SERAPNigeriaStates (
+    S_N INT,
+    StateName VARCHAR(50),
+    Annual_Budget DECIMAL(18, 2),
+    Frequency INT,
+    PoliticalParty VARCHAR(50),
+    GeopoliticalZone VARCHAR(50),
+    Population_2019 INT);
 ```
-
+***I further inserted the data from the SERAPStates table into the new table and then used a JOIN statement to merge the data from the NigeriaStates table into the new table, matching the rows based on the StateName column.***
+```tsql
+INSERT INTO SERAPNigeriaStates
+SELECT
+    SERAPStates.S_N,
+    SERAPStates.StateName,
+    SERAPStates.Annual_Budget,
+    SERAPStates.Frequency,
+    NigeriaStates.PoliticalParty,
+    NigeriaStates.GeopoliticalZone,
+    NigeriaStates.Population_2019
+FROM SERAPStates
+JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
+```
+***Here is what the final table looks like on a spreadsheet***
+![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/Presentation1.jpg)
 
 <a name="header1"></a>
 [![licence badge]][licence]
