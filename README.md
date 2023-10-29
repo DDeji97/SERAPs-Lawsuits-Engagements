@@ -5,7 +5,7 @@ Nigeria, with a population exceeding 223 million, holds the distinction of being
 SERAP Nigeria, a leading NGO dedicated to fostering transparency and accountability, recently garnered the attention of over 3000 Nigerians, inviting them to join the movement against irrational spending by the 9th National Assembly. Analyzing the distribution of responses across the 36 states and the FCT promises fascinating insights crucial for addressing the persisting challenges faced by NGOs and CSOs in the country.
 
 
-![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/Presentation1.jpg)
+![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/Presentation1.jpg)
 
 **The primary objectives of this analysis are as follows:**
 1) To explore the distribution of respondents interested in SERAP's Lawsuits across the 36 states, assessing the correlation of response frequencies with the geopolitical zones and political parties. This exploration aims to guide the strategic deployment of impactful projects in various states across Nigeria.
@@ -41,7 +41,7 @@ VALUES
 (37, 'Zamfara', 1100, 10);
 ```
  **Table2(StateBudgets)**
-
+***Data was gotten from Wikipedia such as the 36 states and FCT Abuja PoliticalParty, GeopoliticalZone, Population_2019***
  
  ```tsql
 CREATE TABLE NigeriaStates (
@@ -71,7 +71,8 @@ INSERT INTO NigeriaStates (StateName, PoliticalParty, GeopoliticalZone, Populati
 ('Zamfara', 'APC', 'North West', 4382000);
 ```
 
-**Merging Table1(SERAPStates) with Table2(NigeriaStates)***
+**Merging Table1(SERAPStates) with Table2(NigeriaStates)**
+
 ***To merge the two tables, I used the following steps:
 I created a new table called SERAPNigeriaStates with all the columns from both of the original tables as shown below***
 
@@ -100,12 +101,4 @@ FROM SERAPStates
 JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
 ```
 ***Here is what the final table looks like on a spreadsheet***
-![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/Presentation1.jpg)
-
-<a name="header1"></a>
-[![licence badge]][licence]
-[![stars badge]][stars]
-[![forks badge]][forks]
-[![issues badge]][issues]
-[![contributors_badge]][contributors]
- 
+![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/20231029_160742.jpg)
