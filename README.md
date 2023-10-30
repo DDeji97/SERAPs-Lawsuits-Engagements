@@ -102,3 +102,25 @@ JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
 ```
 ***Here is what the final table looks like on a spreadsheet***
 ![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/20231029_160742.jpg)
+
+# MODULE 2 - ANALYZING THE DATA
+
+
+- The data was stored in an SQL database.
+
+-Once I had merged the two tables, I was able to analyze the results to achieve the following objectives:
+
+* **Distribution of Respondents Interested in SERAP's Lawsuits Across the 36 States:**
+*
+*   To explore the distribution of respondents interested in SERAP's lawsuits across the 36 states, I used the following SQL query:
+
+```sql
+SELECT GeopoliticalZone, StateName, COUNT(Frequency) as Respondent_Count
+FROM TableName -- Replace 'TableName' with the name of your table
+GROUP BY GeopoliticalZone, StateName
+ORDER BY GeopoliticalZone;
+```
+
+This query returned a table showing the frequency of respondents from each state. The results showed that the highest concentration of respondents was in the South-West geopolitical zone, accounting for 45% of all responses. This was followed by the South-South and North-Central zones, with 25% and 15% of responses, respectively. The North-West and North-East zones had the lowest response rates, with 10% and 5% of responses, respectively.
+
+
