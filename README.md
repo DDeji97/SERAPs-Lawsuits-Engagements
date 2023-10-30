@@ -108,15 +108,16 @@ JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
 
 - The data was stored in an SQL database.
 
--Once I had merged the two tables, I was able to analyze the results to achieve the following objectives:
+- Once I had merged the two tables, I was able to analyze the results to achieve the following objectives:
 
 * **Distribution of Respondents Interested in SERAP's Lawsuits Across the 36 States:**
-*
-*   To explore the distribution of respondents interested in SERAP's lawsuits across the 36 states, I used the following SQL query:
+
+*   To explore the distribution of respondents interested in SERAP's lawsuits across the 36 states and 6 regions, I used the SQL GROUP BY clause along with the ORDER BY clause to group the data by the 'GeopoliticalZone' and then by the 'StateName' and counted the number of respondents. Here is an SQL query for the analysis as shown below:
+*   
 
 ```sql
 SELECT GeopoliticalZone, StateName, COUNT(Frequency) as Respondent_Count
-FROM TableName -- Replace 'TableName' with the name of your table
+FROM SERAPNigeriaStates
 GROUP BY GeopoliticalZone, StateName
 ORDER BY GeopoliticalZone;
 ```
