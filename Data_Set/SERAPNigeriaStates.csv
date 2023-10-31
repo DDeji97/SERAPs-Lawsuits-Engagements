@@ -21,6 +21,8 @@ S_N,StateName,Annual_Budget,Frequency,PoliticalParty,GeopoliticalZone,Population
 20,Kano,1300,95,APC,North West,13890000
 21,Katsina,1000,36,APC,North West,8071000
 22,Kebbi,1200,15,APC,North West,4028000
+23,Kogi,1250,90,APC,North Central,4697000
+24,Kwara,850,135,PDP,North Central,3363000
 25,Lagos,63577890,1178,APC,South West,13960000
 26,Nasarawa,1650,26,APC,North Central,3010000
 27,Niger,1500,38,APC,North Central,5283000
