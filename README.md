@@ -110,7 +110,7 @@ SERAP is located in Lagos, hence we will
 
 - Once I had merged the two tables, I was able to analyze the results to achieve the following objectives:
 
-**Analysis:**
+# Analysis:
 - The data was stored in an SQL database. 
 
 *   To explore the distribution of respondents interested in SERAP's lawsuits across the 36 states and 6 regions, I used the SQL GROUP BY clause along with the ORDER BY clause to group the data by the 'GeopoliticalZone' and then by the 'StateName' and counted the number of respondents. Here is an SQL query for the analysis as shown below:
@@ -123,7 +123,10 @@ ORDER BY GeopoliticalZone;
 ```
 This query returned a table showing the frequency of respondents from each state. The results showed that the highest concentration of respondents was in the South-West geopolitical zone, accounting for 45% of all responses. This was followed by the South-South and North-Central zones, with 25% and 15% of responses, respectively. The North-West and North-East zones had the lowest response rates, with 10% and 5% of responses, respectively.
 
-**Visualization**
+# Visualization:
+Using **Tableau** for my visualization, I have been able to generate the following insights:
+
 ![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/Dashboard_for_GPZ.png)
 
+In the map above, it is clear that there is a positive correlation between the amount of respondents in various states and and the states proximity to Lagos. 
 
