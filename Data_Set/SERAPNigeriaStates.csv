@@ -13,6 +13,7 @@ S_N,StateName,Annual_Budget,Frequency,PoliticalParty,GeopoliticalZone,Population
 12,Edo,1100,167,APC,South South,4672000
 13,Ekiti,1450,101,APC,South West,2957000
 14,Enugu,1300,123,PDP,South East,4729000
+15,FCT Abuja,19250854,209,APC,North Central,2143000),
 16,Gombe,1250,23,APC,North East,3136000
 17,Imo,1300,143,APC,South East,4856000
 18,Jigawa,1250,24,APC,North West,5461000
