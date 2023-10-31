@@ -124,5 +124,6 @@ ORDER BY GeopoliticalZone;
 This query returned a table showing the frequency of respondents from each state. The results showed that the highest concentration of respondents was in the South-West geopolitical zone, accounting for 45% of all responses. This was followed by the South-South and North-Central zones, with 25% and 15% of responses, respectively. The North-West and North-East zones had the lowest response rates, with 10% and 5% of responses, respectively.
 
 **Visualization**
+![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/Dashboard_for_GPZ.png)
 
 
