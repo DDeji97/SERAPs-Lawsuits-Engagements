@@ -103,17 +103,17 @@ JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
 ***Here is what the final table looks like on a spreadsheet***
 ![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/20231029_160742.jpg)
 
-# MODULE 2 - ANALYZING THE DATA
+# MODULE 2 - ANALYZING THE DATA TO ANSWER CRITICAL QUESTIONS
+# Questions 1 : What's is the correlation between the rate of response between various Geo - political zones in Nigeria and their proximity to SERAP's locations? 
+SERAP is located in Lagos, hence we will
 
-
-- The data was stored in an SQL database.
 
 - Once I had merged the two tables, I was able to analyze the results to achieve the following objectives:
 
-* **Distribution of Respondents Interested in SERAP's Lawsuits Across the 36 States:**
+**Analysis:**
+- The data was stored in an SQL database. 
 
 *   To explore the distribution of respondents interested in SERAP's lawsuits across the 36 states and 6 regions, I used the SQL GROUP BY clause along with the ORDER BY clause to group the data by the 'GeopoliticalZone' and then by the 'StateName' and counted the number of respondents. Here is an SQL query for the analysis as shown below:
-*   
 
 ```sql
 SELECT GeopoliticalZone, StateName, COUNT(Frequency) as Respondent_Count
@@ -121,7 +121,8 @@ FROM SERAPNigeriaStates
 GROUP BY GeopoliticalZone, StateName
 ORDER BY GeopoliticalZone;
 ```
-
 This query returned a table showing the frequency of respondents from each state. The results showed that the highest concentration of respondents was in the South-West geopolitical zone, accounting for 45% of all responses. This was followed by the South-South and North-Central zones, with 25% and 15% of responses, respectively. The North-West and North-East zones had the lowest response rates, with 10% and 5% of responses, respectively.
+
+**Visualization**
 
 
