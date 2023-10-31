@@ -67,7 +67,7 @@ INSERT INTO SERAPStates (S_N, StateName, Annual_Budget, Frequency) VALUES
 (12, 'Edo', 1100, 167),
 (13, 'Ekiti', 1450, 101),
 (14, 'Enugu', 1300, 123),
-(15, 'FCT', 19250854, 209),
+(15, 'FCT Abuja', 19250854, 209),
 (16, 'Gombe', 1250, 23),
 (17, 'Imo', 1300, 143),
 (18, 'Jigawa', 1250, 24),
