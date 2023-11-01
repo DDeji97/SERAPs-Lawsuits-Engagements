@@ -101,6 +101,46 @@ FROM SERAPStates
 JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
 ```
 ***Here is what the final table looks like on a spreadsheet***
+| S_N | StateName   | Annual_Budget | Frequency | PoliticalParty | GeopoliticalZone | Population_2019 | Proximity_to_Lagos_State |
+|-----|-------------|---------------|-----------|----------------|------------------|-----------------|--------------------------|
+| 1   | Abia        | 1200          | 134       | PDP            | South East       | 4812000         | 1,034.5                  |
+| 2   | Adamawa     | 1500          | 42        | APC            | North East       | 4989000         | 1,262.9                  |
+| 3   | Akwa Ibom   | 1100          | 106       | PDP            | South South      | 5607000         | 1,045.4                  |
+| 4   | Anambra     | 1450          | 216       | APGA           | South East       | 5303000         | 383.3                    |
+| 5   | Bauchi      | 950           | 27        | APC            | North East       | 6153000         | 1,129.7                  |
+| 6   | Bayelsa     | 1200          | 25        | PDP            | South South      | 2172000         | 1,034.7                  |
+| 7   | Benue       | 1350          | 87        | PDP            | North Central    | 6175000         | 1,029.6                  |
+| 8   | Borno       | 1500          | 49        | APC            | North East       | 6588000         | 1,614.5                  |
+| 9   | Cross River | 250000        | 54        | PDP            | South South      | 4153000         | 576.9                    |
+| 10  | Delta       | 1450          | 204       | PDP            | South South      | 5559000         | 398.8                    |
+| 11  | Ebonyi      | 1050          | 39        | PDP            | South East       | 3489000         | 1,017.3                  |
+| 12  | Edo         | 1100          | 167       | APC            | South South      | 4672000         | 308.4                    |
+| 13  | Ekiti       | 1450          | 101       | APC            | South West       | 2957000         | 556.3                    |
+| 14  | Enugu       | 1300          | 123       | PDP            | South East       | 4729000         | 496.2                    |
+| 15  | FCT Abuja   | 19250854      | 209       | APC            | North Central    | 2143000         | 556.8                    |
+| 16  | Gombe       | 1250          | 23        | APC            | North East       | 3136000         | 1,174.9                  |
+| 17  | Imo         | 1300          | 143       | APC            | South East       | 4856000         | 643.0                    |
+| 18  | Jigawa      | 1250          | 24        | APC            | North West       | 5461000         | 1,276.5                  |
+| 19  | Kaduna      | 1400          | 105       | APC            | North West       | 8042000         | 838.9                    |
+| 20  | Kano        | 1300          | 95        | APC            | North West       | 13890000        | 1,146.3                  |
+| 21  | Katsina     | 1000          | 36        | APC            | North West       | 8071000         | 1,190.7                  |
+| 22  | Kebbi       | 1200          | 15        | APC            | North West       | 4028000         | 1,122.3                  |
+| 23  | Kogi        | 1250          | 90        | APC            | North Central    | 4697000         | 245.5                    |
+| 24  | Kwara       | 850           | 135       | PDP            | North Central    | 3363000         | 463.3                    |
+| 25  | Lagos       | 63577890      | 1178      | APC            | South West       | 13960000        | 0                        |
+| 26  | Nasarawa    | 1650          | 26        | APC            | North Central    | 3010000         | 634.7                    |
+| 27  | Niger       | 1500          | 38        | APC            | North Central    | 5283000         | 634.4                    |
+| 28  | Ogun        | 2500          | 248       | APC            | South West       | 5570000         | 81.8                     |
+| 29  | Ondo        | 1500          | 116       | APC            | South West       | 4933000         | 316.7                    |
+| 30  | Osun        | 2015000       | 203       | APC            | South West       | 5253000         | 218.9                    |
+| 31  | Oyo         | 2000          | 292       | PDP            | South West       | 7562000         | 144                      |
+| 32  | Plateau     | 1850          | 50        | APC            | North Central    | 4842000         | 1,033.4                  |
+| 33  | Rivers      | 3650200       | 124       | PDP            | South South      | 7763000         | 504                      |
+| 34  | Sokoto      | 1050          | 13        | APC            | North West       | 4909000         | 1,329                    |
+| 35  | Taraba      | 1350          | 21        | PDP            | North East       | 2888000         | 1,386                    |
+| 36  | Yobe        | 1100          | 23        | APC            | North East       | 3289000         | 1,614                    |
+| 37  | Zamfara     | 1100          | 10        | APC            | North West       | 4382000         | 1,198                    |
+ 
 ![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/20231029_160742.jpg)
 
 # MODULE 2 - ANALYZING THE DATA TO ANSWER CRITICAL QUESTIONS
