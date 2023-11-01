@@ -140,8 +140,6 @@ JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
 | 35  | Taraba      | 1350          | 21        | PDP            | North East       | 2888000         | 1,386                    |
 | 36  | Yobe        | 1100          | 23        | APC            | North East       | 3289000         | 1,614                    |
 | 37  | Zamfara     | 1100          | 10        | APC            | North West       | 4382000         | 1,198                    |
- 
-![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/20231029_160742.jpg)
 
 # MODULE 2 - ANALYZING THE DATA TO ANSWER CRITICAL QUESTIONS
 # Questions 1 : What's is the correlation between the rate of response between various Geo - political zones in Nigeria and their proximity to SERAP's locations? 
