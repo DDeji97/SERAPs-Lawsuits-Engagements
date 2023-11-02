@@ -101,7 +101,7 @@ FROM SERAPStates
 JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
 ```
 ***Here is what the final table looks like on a spreadsheet***
-| S_N | StateName   | Annual_Budget | Frequency | PoliticalParty | GeopoliticalZone | Population_2019 | Proximity_to_Lagos_State |
+| S_N | StateName   | Annual_Budget | Frequency | PoliticalParty | GeopoliticalZone | Population_2019 | Proximity_to_Lagos_State(KM)|
 |-----|-------------|---------------|-----------|----------------|------------------|-----------------|--------------------------|
 | 1   | Abia        | 1200          | 134       | PDP            | South East       | 4812000         | 1,034.5                  |
 | 2   | Adamawa     | 1500          | 42        | APC            | North East       | 4989000         | 1,262.9                  |
