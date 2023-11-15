@@ -168,4 +168,4 @@ Using **Tableau** for my visualization, I have been able to generate the followi
 
 In the map above, it is clear that there is a positive correlation between the amount of respondents in various states and and the states proximity to Lagos. 
 
-![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/Presentation1.jpg)
+![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/SERAP%20LS%20Report_page-0004.jpg)
