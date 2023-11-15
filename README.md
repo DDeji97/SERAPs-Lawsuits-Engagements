@@ -2,7 +2,7 @@
 # Introduction 
 Nigeria, with a population exceeding 223 million, holds the distinction of being Africa's most populous nation. Surprisingly, only 4 out of 10 Nigerians actively participate in political matters, leading to a serious dearth of accountability and transparency in governance. Efforts from various Non-Governmental Organizations (NGOs) and Civil Society Organizations (CSOs) to foster civic engagement have encountered substantial challenges, with millions of dollars spent across the 36 states, yielding limited success.
 
-SERAP Nigeria, a leading NGO dedicated to fostering transparency and accountability, recently garnered the attention of over 3000 Nigerians, inviting them to join the movement against irrational spending by the 9th National Assembly. Analyzing the distribution of responses across the 36 states and the FCT promises fascinating insights crucial for addressing the persisting challenges faced by NGOs and CSOs in the country.
+SERAP Nigeria, a leading NGO dedicated to fostering transparency and accountability, recently garnered the attention of over 4500 Nigerians, inviting them to join the movement against irrational spending by the 9th National Assembly. Analyzing the distribution of responses across the 36 states and the FCT promises fascinating insights crucial for addressing the persisting challenges faced by NGOs and CSOs in the country.
 
 
 ![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/Presentation1.jpg)
@@ -168,3 +168,4 @@ Using **Tableau** for my visualization, I have been able to generate the followi
 
 In the map above, it is clear that there is a positive correlation between the amount of respondents in various states and and the states proximity to Lagos. 
 
+![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/Presentation1.jpg)
