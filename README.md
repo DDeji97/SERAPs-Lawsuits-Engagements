@@ -168,7 +168,10 @@ This query fetches the states in ascending order of respondent counts. The botto
 
 This analysis offers a clear perspective on the states that have shown substantial and limited participation in the survey or research, providing a basis for further investigation or targeted strategies in these regions.
 
+# Visualization:
+Using **Tableau** for my visualization, I have been able to generate the following insights:
 
+![image](https://github.com/DDeji97/SERAPs-Lawsuits-Engagements/blob/main/imgs/20231116_214359.jpg)
 # Questions 2 : What's is the correlation between the rate of response between various Geo - political zones in Nigeria and their proximity to SERAP's locations? 
 SERAP is located in Lagos, hence we will be comparing the proximity of Lagos to the other 35 states including the FCT. 
 
