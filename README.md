@@ -142,8 +142,35 @@ JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
 | 37  | Zamfara     | 1100          | 10        | APC            | North West       | 4382000         | 1,198                    |
 
 # MODULE 2 - ANALYZING THE DATA TO ANSWER CRITICAL QUESTIONS
-# Questions 1 : What's is the correlation between the rate of response between various Geo - political zones in Nigeria and their proximity to SERAP's locations? 
-SERAP is located in Lagos, hence we will
+# Questions 1 : What are you top 5 and bottom 5 states according to their count of respondents? 
+In order for me to answer this question 
+To analyze and derive insights about the top 5 and bottom 5 states according to the count of respondents, SQL commands were employed to extract this information from the 'SERAPNigeriaStates' table. 
+
+Using SQL, I started by querying the table to list the states based on their respondent count in descending order:
+
+```sql
+SELECT StateName, Frequency 
+FROM SERAPNigeriaStates 
+ORDER BY Frequency DESC;
+```
+
+This command helps in identifying the states with the highest number of respondents. Based on the results, the top 5 states were Lagos, Ogun, Oyo, Delta, and Ekiti, having the highest respondent counts.
+
+On the contrary, to identify the states with the least number of respondents, the SQL command below was used:
+
+```sql
+SELECT StateName, Frequency 
+FROM SERAPNigeriaStates 
+ORDER BY Frequency ASC;
+```
+
+This query fetches the states in ascending order of respondent counts. The bottom 5 states, namely Zamfara, Sokoto, Kebbi, Yobe, and Gombe, had the fewest respondents.
+
+This analysis offers a clear perspective on the states that have shown substantial and limited participation in the survey or research, providing a basis for further investigation or targeted strategies in these regions.
+
+
+# Questions 2 : What's is the correlation between the rate of response between various Geo - political zones in Nigeria and their proximity to SERAP's locations? 
+SERAP is located in Lagos, hence we will be comparing the proximity of Lagos to the other 35 states including the FCT. 
 
 
 - Once I had merged the two tables, I was able to analyze the results to achieve the following objectives:
