@@ -40,7 +40,7 @@ VALUES
 (34, 'Sokoto', 1050, 13), (35, 'Taraba', 1350, 21), (36, 'Yobe', 1100, 23),
 (37, 'Zamfara', 1100, 10);
 ```
- **Table2(StateBudgets)**
+ **Table2(NigeriaStates)**
 ***Data was gotten from Wikipedia such as the 36 states and FCT Abuja PoliticalParty, GeopoliticalZone, Population_2019***
  
  ```tsql
@@ -141,8 +141,15 @@ JOIN NigeriaStates ON SERAPStates.StateName = NigeriaStates.StateName;
 | 36  | Yobe        | 1100          | 23        | APC            | North East       | 3289000         | 1,614                    |
 | 37  | Zamfara     | 1100          | 10        | APC            | North West       | 4382000         | 1,198                    |
 
+- Once I had merged the two tables, I was able to analyze the results to achieve the following objectives:
+
+# Analysis:
+- The data was stored in an SQL database.
+- Analysis will be conducted in other answer the questions towards the project's objective.
+
 # MODULE 2 - ANALYZING THE DATA TO ANSWER CRITICAL QUESTIONS
-# Questions 1 : What are you top 5 and bottom 5 states according to their count of respondents? 
+# Questions 1 : 
+**A**: What are you top 5 and bottom 5 states according to their count of respondents? 
 In order for me to answer this question 
 To analyze and derive insights about the top 5 and bottom 5 states according to the count of respondents, SQL commands were employed to extract this information from the 'SERAPNigeriaStates' table. 
 
@@ -168,6 +175,20 @@ This query fetches the states in ascending order of respondent counts. The botto
 
 This analysis offers a clear perspective on the states that have shown substantial and limited participation in the survey or research, providing a basis for further investigation or targeted strategies in these regions.
 
+
+**B**: What is the average response gotten from a state by SERAP? 
+To derive insights on the average frequencies for all states in Nigeria while excluding Lagos as an outlier, SQL commands were utilized to calculate this average.
+
+```sql
+SELECT AVG(Frequency) AS AverageFrequency 
+FROM SERAPNigeriaStates 
+WHERE StateName <> 'Lagos';
+```
+
+This SQL query computes the average frequency for all states except Lagos. By excluding Lagos, an outlier due to its substantially higher frequency count, the calculated average offers a more representative value for the other states' frequencies.
+
+The average frequency across these states, excluding Lagos, provides a standardized measure reflecting the typical respondent count per state. This metric can aid in understanding the average level of engagement or participation within each state, supporting strategic decision-making and resource allocation for future surveys or initiatives.
+
 # Visualization:
 Using **Tableau** for my visualization, I have been able to generate the following insights:
 
@@ -175,11 +196,6 @@ Using **Tableau** for my visualization, I have been able to generate the followi
 # Questions 2 : What's is the correlation between the rate of response between various Geo - political zones in Nigeria and their proximity to SERAP's locations? 
 SERAP is located in Lagos, hence we will be comparing the proximity of Lagos to the other 35 states including the FCT. 
 
-
-- Once I had merged the two tables, I was able to analyze the results to achieve the following objectives:
-
-# Analysis:
-- The data was stored in an SQL database. 
 
 *   To explore the distribution of respondents interested in SERAP's lawsuits across the 36 states and 6 regions, I used the SQL GROUP BY clause along with the ORDER BY clause to group the data by the 'GeopoliticalZone' and then by the 'StateName' and counted the number of respondents. Here is an SQL query for the analysis as shown below:
 
