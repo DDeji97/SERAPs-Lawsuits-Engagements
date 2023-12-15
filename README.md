@@ -187,7 +187,7 @@ WHERE StateName <> 'Lagos';
 
 This SQL query computes the average frequency for all states except Lagos. By excluding Lagos, an outlier due to its substantially higher frequency count, the calculated average offers a more representative value for the other states' frequencies.
 
-The average frequency across these states, excluding Lagos, provides a standardized measure reflecting the typical respondent count per state. This metric can aid in understanding the average level of engagement or participation within each state, supporting strategic decision-making and resource allocation for future surveys or initiatives.
+95 respondents makes up the average frequency of respondents across these states, excluding Lagos, provides a standardized measure reflecting the typical respondent count per state. This metric can aid in understanding the average level of engagement or participation within each state, supporting strategic decision-making and resource allocation for future surveys or initiatives.
 
 # Visualization:
 Using **Tableau** for my visualization, I have been able to generate the following insights:
